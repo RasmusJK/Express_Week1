@@ -1,0 +1,12 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "test": "karma run",
+    "create-some-folder": "mkdir some && cd some && mkdir other",
+    "start": "nodemon script.js"
+  }
+}
